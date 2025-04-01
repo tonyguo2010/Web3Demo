@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "@solana/web3.js": "^1.95.4",
-    "web3": "^1.2.4"
+    "web3": "^1.10.4"
   }
 }
