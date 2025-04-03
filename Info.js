@@ -82,5 +82,13 @@ export default class Info{
         console.log('Contract total supply:', total)
         const name = await contract.methods.name().call();
         console.log('Contract name is ', name)
+        // const option = contract.options
+        // console.log(option)
+        // console.log(option.address)
+        console.log(contract.options.jsonInterface)
+        console.log(contract.methods.symbol().encodeABI())
+        // console.log(contract.methods.symbol().createAccessList({from : this.account_address}))
+        console.log(contract.events)
+        console.log(contract.getPastEvents('allEvents'))
     }
 }
